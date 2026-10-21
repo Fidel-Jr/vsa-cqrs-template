@@ -1,0 +1,6 @@
+@VsaCqrsTemplate_HostAddress = http://localhost:5223
+
+GET {{VsaCqrsTemplate_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

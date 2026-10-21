@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Fidel Colinares Jr.",
+  "classifications": [ "Web", "Minimal API", "EF Core", "Vertical Slice Architecture with CQRS" ],
+  "name": "My Web API with EF Core with Vertical Slice Architecture Starter and CQRS",
+  "identity": "Project.VsaCqrsTemplate",
+  "shortName": "vsa-cqrs-template",
+  "sourceName": "VsaCqrsTemplate",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "HttpPortGenerated": {
+      "type": "generated",
+      "generator": "port",
+      "replaces": "7225"
+    },
+    "HttpsPortGenerated": {
+      "type": "generated",
+      "generator": "port",
+      "replaces": "5134"
+    }
+  },
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        ".template.config/**",
+        "bin/**",
+        "obj/**",
+        ".vs/**",
+        ".git/**",
+        ".idea/**",
+        "*.user",
+        "*.suo"
+      ]
+    }
+  ]
+}
