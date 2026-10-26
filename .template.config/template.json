@@ -28,7 +28,7 @@
       "source": "./",
       "target": "./",
       "exclude": [
-        ".template.config/**",
+        ".template.config/**",  
         "bin/**",
         "obj/**",
         ".vs/**",
